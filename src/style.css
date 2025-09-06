@@ -49,6 +49,13 @@ form {
   line-height: 20px;
   margin-left: 12px;
 }
+
+.generated-fact {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #272044;
+}
 footer {
   border-top: 1px solid #272044;
   text-align: center;
