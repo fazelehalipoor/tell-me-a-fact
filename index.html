@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>AI Fact Generator</title>
@@ -19,7 +20,7 @@
     <div>
       <form id="fact-generator-form">
         <input type="text" placeholder="Enter a topic" required id="topic-input" class="topic-input">
-        <input type="submit" id="submit-input" class="submit-input">
+        <input type="submit" name="submit" id="submit-input" class="submit-input">
       </form>
     </div>
     <div class="generated-fact" id="generated-fact"> </div>
@@ -32,7 +33,7 @@
       <a href="https://ai-fact-generator.onrender.com" target="_blank">Render</a>.
     </footer>
   </div>
-  <script src="src/index.js"></script>
+  <script src="src/script.js"></script>
 </body>
 
 </html>
