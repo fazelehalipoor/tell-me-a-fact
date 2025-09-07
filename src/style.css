@@ -56,10 +56,27 @@ form {
   line-height: 2;
   border-left: 3px solid #272044;
 }
+.hidden {
+  display: none;
+}
 footer {
   border-top: 1px solid #272044;
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
   padding-top: 15px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
